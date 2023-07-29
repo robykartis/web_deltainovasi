@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center w-full h-screen">
-      <h1 className="text-3xl mb-6">Login Update</h1>
+      <h1 className="text-3xl mb-6">Login </h1>
 
       <form className="w-[400px] flex flex-col gap-6" onSubmit={handleSubmit}>
         <input
