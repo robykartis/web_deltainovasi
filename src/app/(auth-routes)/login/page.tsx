@@ -36,7 +36,7 @@ export default function Home() {
           className="h-12 rounded-md p-2 bg-transparent border border-gray-300"
           type="text"
           name="email"
-          placeholder="Digite seu e-mail"
+          placeholder="Masukan Email"
           onChange={(e) => setEmail(e.target.value)}
         />
 
@@ -44,7 +44,7 @@ export default function Home() {
           className="h-12 rounded-md p-2 bg-transparent border border-gray-300"
           type="password"
           name="password"
-          placeholder="Digite sua senha"
+          placeholder="Masukan Password"
           onChange={(e) => setPassword(e.target.value)}
         />
 
